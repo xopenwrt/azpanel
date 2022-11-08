@@ -102,6 +102,20 @@ class AzureList
                 'version' => 'latest',
                 'offer' => '0001-com-ubuntu-server-jammy',
             ],
+            'clear_linux_os' => [
+                'display' => 'Clear Linux',
+                'sku' => 'basic',
+                'publisher' => 'intel_corporation',
+                'version' => 'latest',
+                'offer' => 'clear_linux_os',
+            ],
+            'RHEL_8_2' => [
+                'display' => 'Red Hat Enterprise Linux 8.2 Gen2',
+                'sku' => '82gen2',
+                'publisher' => 'RedHat',
+                'version' => 'latest',
+                'offer' => 'RHEL',
+            ],
             // Centos series
             'Centos_79' => [
                 'display' => 'Centos 7.9 (gen2)',
